@@ -37,7 +37,7 @@ $(function(){
     $('#trainIntialTime').val('');
     $('#trainFrequency').val('');
 
-    //If input vales are all true, pushes the information to database
+    //If input values are all true, pushes the information to database
     var isInputTimeValid = moment(time,"HH:mm").isValid();
     
     if(isInputTimeValid === true && frequency > 0 && frequency <= 60 ) {      
