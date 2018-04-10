@@ -46,7 +46,6 @@ $(function(){
         destination: destination,
         time: time,
         frequency: frequency,
-        currentTime: moment(),
       });          
     } else {
       alert('Data input is not is invalid.');
